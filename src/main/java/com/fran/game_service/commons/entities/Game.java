@@ -1,4 +1,4 @@
-package com.fran.game_service.entities;
+package com.fran.game_service.commons.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -24,4 +24,8 @@ public class Game {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String name;
+    public Game get() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'get'");
+    }
 }
